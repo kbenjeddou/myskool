@@ -41,6 +41,9 @@
     "packageFolder": "io/myskool",
     "jwtSecretKey": "NDBjOWU0NzJhYWEwNTBhMTU3NzM1NmRkNDI5OWFjZThmZTNhZjJhYWU2ZjQzNzFmYzNmMDRlODAwMzcxNjYwNWY2ZDJhNTY5ODJmZDExZWY3MjI0OWJmOTk5NTU3M2M0N2I5ODAwNjY5M2ViMTkxZGE4YTI5NzUxNTIxNGIyZTQ=",
     "clientPackageManager": "npm",
-    "languages": ["en", "fr"]
+    "languages": ["en", "fr"],
+    "herokuAppName": "myskool",
+    "herokuDeployType": "git",
+    "herokuJavaVersion": "11"
   }
 }
