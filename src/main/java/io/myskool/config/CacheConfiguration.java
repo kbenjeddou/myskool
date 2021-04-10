@@ -48,6 +48,7 @@ public class CacheConfiguration {
             createCache(cm, io.myskool.domain.User.class.getName());
             createCache(cm, io.myskool.domain.Authority.class.getName());
             createCache(cm, io.myskool.domain.User.class.getName() + ".authorities");
+            createCache(cm, io.myskool.domain.Program.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }

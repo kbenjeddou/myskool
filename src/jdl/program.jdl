@@ -1,0 +1,14 @@
+entity Program {
+  cover ImageBlob required minbytes(100) maxbytes(5120000)
+  title String required minlength(5) maxlength(30)
+  description String required maxlength(300)
+  startDate LocalDate required
+  endDate LocalDate required
+  tags String minlength(3) maxlength(30)
+}
+
+relationship ManyToOne {
+    Program{user(login)} to User
+}
+
+paginate Program with pagination

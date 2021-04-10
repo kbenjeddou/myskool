@@ -44,6 +44,8 @@
     "languages": ["en", "fr"],
     "herokuAppName": "myskool",
     "herokuDeployType": "git",
-    "herokuJavaVersion": "11"
+    "herokuJavaVersion": "11",
+    "entities": ["Program"],
+    "lastLiquibaseTimestamp": 1618067292000
   }
 }
